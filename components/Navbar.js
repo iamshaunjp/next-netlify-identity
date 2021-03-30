@@ -1,7 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { useContext } from 'react'
+import AuthContext from '../stores/authContext'
 
 export default function Navbar() {
+  const user = useContext(AuthContext)
+  console.log(user)
+
   return (
     <div className="container">
       <nav>
