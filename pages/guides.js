@@ -1,5 +1,3 @@
-import { useContext } from 'react'
-import AuthContext from '../stores/authContext'
 import styles from '../styles/Guides.module.css'
 
 export default function Guides() {
